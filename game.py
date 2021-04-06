@@ -28,7 +28,6 @@ snake.penup()
 snake.goto(0,0)
 snake.shape("square")
 snake.color("white")
-#snake.shapesize(strech_width=20,strech_length=20)
 snake.direction="stop"
 move_speed = 20
 
