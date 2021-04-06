@@ -63,13 +63,6 @@ def dead():
     with open("highscore.txt", "w") as f:
         f.write(str(high_score))
     time.sleep(7)
-##    for i in range(7):
-##        for ele in segment:
-##            ele.color("pink")
-##            time.sleep(0.5)
-##        for ele in segment:
-##            ele.color("grey")
-##            time.sleep(0.5)
     snake.goto(0,0)
     snake.direction="stop"
     for body_part in segment:
@@ -189,8 +182,5 @@ while True:
     
 scrn.mainloop()
 
-    
 
-
-#dead par color change thing
 
